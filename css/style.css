@@ -1,23 +1,159 @@
 .original-surfer-regular {
-    font-family: "Original Surfer", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-
-h1 {
-    /* h1-tag */
-    font-family: "Original Surfer";
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px; /* 93.75% */
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.oldenburg-regular {
+  font-family: "Oldenburg", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular > {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  background-color: #f4f9fb;
+  margin: 0px;
+
+}
+
+header {
+  background-color: #397490;
+}
+
+footer {
+  background-color: #ff8f45;
+}
+
+header h1, header h2 {
+  color: #f4f9fb
+}
+
+article {
+  background-color: #284b5e;
+}
+
+.orange {
+  background-color: #ff8f45;
+}
+
+h1 {
+  /* h1-tag */
+  font-family: "Original Surfer";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 93.75% */
+  color:blue
+}
+
+
 h2 {
-        /* h2-tag */
-    font-family: "Original Surfer";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 60px; /* 150% */
+  /* h2-tag */
+  font-family: "Original Surfer";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 150% */
+}
+
+h3 {
+  font-family: Oldenburg;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+}
+
+p {
+  /* paragraph-tag */
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+
+img {
+  display: block;
+  max-width: 410px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 24px;
+  margin: 0px 80px 88px 80px;
+}
+
+.review {
+  background-color: #397490;
+  padding: 32px;
+}
+
+#title {
+  grid-column: 1/5;
+}
+
+#about {
+  grid-column: 10/12;
+}
+
+#welcome-text{
+  grid-column: 2/7;
+}
+
+#intro-img {
+  grid-column: 8/12;
+}
+
+.review-img {
+  grid-column: 2/6;
+}
+
+.review-text {
+  grid-column: 7/12;
+}
+
+.flavor {
+  grid-column: 1/4;
+  text-align: center;
+  border: #f4f9fb 2px solid;
+  padding: 8px;
+}
+
+.texture {
+  grid-column: 4/7;
+  text-align: center;
+  border: #f4f9fb 2px solid;
+  padding: 8px;
+
+}
+
+.shop {
+  grid-column: 7/10;
+  text-align: center;
+  border: #f4f9fb 2px solid;
+  padding: 8px;
+
+}
+
+.overall {
+  grid-column: 10/13;
+  text-align: center;
+  border: #f4f9fb 2px solid;
+  padding: 8px;
+
+}
+
+#socials {
+  grid-column: 1/5;
 }
